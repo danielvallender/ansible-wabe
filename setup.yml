@@ -9,10 +9,7 @@
     debug:
       msg: "Hello DEVK!!" 
       
-  - name: Create an insecure file
-    file: test.txt
-    state: file
+  - name: Create file
+    file:
+    state: touch
     path: /temp
-    owner: root
-    group: root
-    mode: '1777'
