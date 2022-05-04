@@ -13,3 +13,7 @@
     file:
       path: /tmp/NEUE_DATEI
       state: touch
+
+  - name: Hello Variable
+    debug:
+      msg: "{{ Test }}" 
