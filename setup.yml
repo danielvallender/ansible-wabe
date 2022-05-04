@@ -21,8 +21,7 @@
   - name: Hello Loop
     debug:
       msg: "hello {{ item }}!"
-      
-      loop: 
-        - test1
-        - test2
-        - test3
+    loop: 
+    - test1
+    - test2
+    - test3
