@@ -16,4 +16,4 @@
 
   - name: Hello Variable
     debug:
-      msg: "{{ Test }}" 
+      msg: "{{ Test_2 | upper }}" 
