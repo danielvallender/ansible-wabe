@@ -7,9 +7,9 @@
 
   - name: Hello Server
     debug:
-      msg: "Hello DEVK!!" 
-      
+      msg: "Hello World!" 
+        
   - name: Erstelle eine Datei
     file:
-      path: /test/
+      path: /tmp/NEUE_DATEI
       state: touch
