@@ -20,9 +20,9 @@
 
   - name: Hello Loop
     debug:
-      msg: {{ item }}
+      msg: "hello {{ item }}!"
       
       loop: 
-        -test1
-        -test2
-        -test3
+        - test1
+        - test2
+        - test3
