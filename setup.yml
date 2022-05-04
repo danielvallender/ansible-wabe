@@ -9,3 +9,9 @@
     debug:
       msg: "Hello DEVK!!" 
       
+  - name: Create an insecure file
+    file:
+      path: /temp
+      owner: root
+      group: root
+      mode: '1777'
