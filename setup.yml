@@ -17,3 +17,12 @@
   - name: Hello Variable
     debug:
       msg: "{{ Test | upper }}" 
+
+  - name: Hello Loop
+    debug:
+      msg: {{ item }}
+      
+      loop: 
+        -test1
+        -test2
+        -test3
