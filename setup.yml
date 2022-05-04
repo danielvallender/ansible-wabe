@@ -9,7 +9,7 @@
     debug:
       msg: "Hello DEVK!!" 
       
-  - name: Create file
+  - name: Erstelle eine Datei
     file:
-    state: touch
-    path: /temp
+      path: /temp/
+      state: touch
