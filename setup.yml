@@ -11,5 +11,5 @@
       
   - name: Erstelle eine Datei
     file:
-      path: /temp/
+      path: /test/
       state: touch
